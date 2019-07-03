@@ -2,6 +2,7 @@
 id: 587d7b7e367417b2b2512b24
 title: Use the Conditional (Ternary) Operator
 challengeType: 1
+videoUrl: 'https://scrimba.com/c/c3JRmSg'
 ---
 
 ## Description
@@ -10,9 +11,26 @@ The <dfn>conditional operator</dfn>, also called the <dfn>ternary operator</dfn>
 The syntax is:
 <code>condition ? statement-if-true : statement-if-false;</code>
 The following function uses an if-else statement to check a condition:
-<blockquote>function findGreater(a, b) {<br>&nbsp;&nbsp;if(a > b) {<br>&nbsp;&nbsp;&nbsp;&nbsp;return "a is greater";<br>&nbsp;&nbsp;}<br>&nbsp;&nbsp;else {<br>&nbsp;&nbsp;&nbsp;&nbsp;return "b is greater";<br>&nbsp;&nbsp;}<br>}</blockquote>
+
+```js
+function findGreater(a, b) {
+  if(a > b) {
+    return "a is greater";
+  }
+  else {
+    return "b is greater";
+  }
+}
+```
+
 This can be re-written using the <code>conditional operator</code>:
-<blockquote>function findGreater(a, b) {<br>&nbsp;&nbsp;return a > b ? "a is greater" : "b is greater";<br>}</blockquote>
+
+```js
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater";
+}
+```
+
 </section>
 
 ## Instructions

@@ -17,7 +17,7 @@ a different device width/scale allowing you to show the best possible layout to 
 
 ## Setting Break Points
 
-Breakpoints are broadly set on basis of either of the following.
+Breakpoints are broadly set on basis of either of the following:
 
 - Breakpoints based on device width.
 - Breakpoints based on content.
@@ -93,7 +93,7 @@ and (orientation: landscape) {
 
 ### Breakpoints based on Content
 
-This is the most preferred choice while making or writing the breakpoint rules. Because it is easier to adjust your content according a particular layout only when it requires a change.
+This is the most preferred choice while making or writing the breakpoint rules. Because it is easier to adjust your content according to a particular layout only when it requires a change.
 ```
 @media only screen (min-width: 768px){
 ...
@@ -102,7 +102,7 @@ This is the most preferred choice while making or writing the breakpoint rules. 
 > This breakpoint means the CSS will apply when the device width is 768px and above.
 
 
-#### You can also set a range with breakpoints,  so the CSS will only apply within those limits.
+#### You can also set a range with breakpoints, so the CSS will only apply within those limits.
 ```
 @media only screen and (min-width: 768px) and (max-width: 959px){
 
@@ -168,7 +168,7 @@ body {
 ```
 
 
-Breakpoints that are based on content as opposed to device are less complicated. Here's a simple snippet that triggers when the device's width is upward of ```code 700px``` roughly smart-phone screen sized
+Breakpoints that are based on content as opposed to device are less complicated. Here's a simple snippet that triggers when the device's width is upward of `700px` roughly smart-phone screen sized
 
 ```css
 @media only screen and (min-width: 700px) {
@@ -180,7 +180,7 @@ Breakpoints that are based on content as opposed to device are less complicated.
 
 You can also set a minimum and maximum width, which lets you experiment with different ranges. This one triggers roughly between smart-phone and larger desktop and monitor sizes
 
-```code
+```css
 @media only screen and (min-width: 700px) and (max-width: 1500px) {
   something {
     something: something;
